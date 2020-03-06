@@ -1,0 +1,6 @@
+#!/bin/zsh
+# My zsh aliases
+alias conTT="bluetoothctl connect EB:06:EF:60:FB:6E"
+alias compGroff="groff -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
+alias slideGroff="groff -P-l -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'

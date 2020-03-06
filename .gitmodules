@@ -1,0 +1,12 @@
+[submodule ".config/ranger"]
+	path = .config/ranger
+	url = git@github.com:TheCaav/MyRangerConf.git
+[submodule ".conky"]
+	path = .config/.conky
+	url = git@github.com:TheCaav/MyConky.git
+[submodule ".config/my-screenlayout"]
+	path = .config/my-screenlayout
+	url = git@github.com:TheCaav/MyScreenLayouts.git
+[submodule ".scripts"]
+	path = .scripts
+	url = git@github.com:TheCaav/my-scripts.git
