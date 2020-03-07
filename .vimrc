@@ -1,3 +1,5 @@
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
+
 " VUNDLE STUFF
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -10,7 +12,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'file:///home/curankar/stick/Documents/Programs/GitPrograms/YouCompleteMe'
+Plugin 'ycm-core/YouCompleteMe'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo

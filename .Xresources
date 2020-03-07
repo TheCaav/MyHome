@@ -1,6 +1,6 @@
 !! URxvt Appearance
-URxvt.font: xft:Monaco:style=Regular:size=11
-URxvt.boldFont: xft:Monaco:style=Bold:size=11
+URxvt.font: xft:Monaco:style=Regular:size=10
+URxvt.boldFont: xft:Monaco:style=Bold:size=10
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 !URxvt.geometry: 92x24
