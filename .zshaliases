@@ -5,3 +5,4 @@ alias compGroff="groff -mm -mpresent file.rof > file.pps && ./presentps -l < fil
 alias slideGroff="groff -P-l -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias mntSSD='sudo cryptsetup open /dev/sda1 SSD && sudo mount /dev/mapper/SSD ~/SSD'
+alias duda='du -a -d 1 -h'

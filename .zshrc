@@ -121,6 +121,7 @@ zmodload zsh/mathfunc
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # My Alias File
 source /home/curankar/.zshaliases
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
+source /home/curankar/.scripts/functions.sh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 setopt no_share_history

@@ -18,19 +18,25 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1583618955,,"wq"
+|2,0,1583684152,,"wq"
+:w
+|2,0,1583681043,,"w"
 :q
-|2,0,1583618801,,"q"
-:q!
-|2,0,1583618516,,"q!"
-:Wq
-|2,0,1583617520,,"Wq"
+|2,0,1583679924,,"q"
 :Q
-|2,0,1583617481,,"Q"
+|2,0,1583679880,,"Q"
+:q!
+|2,0,1583634019,,"q!"
+:q#
+|2,0,1583634015,,"q#"
+:Wq
+|2,0,1583624021,,"Wq"
 :PluginInstall
 |2,0,1583601437,,"PluginInstall"
 
 # Search String History (newest to oldest):
+?/90
+|2,1,1583623359,47,"90"
 ?/brightnessa
 |2,1,1583614036,47,"brightnessa"
 ?/font
@@ -49,242 +55,401 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+		find "$1" -name "$2" 2> /dev/null
+|3,1,0,1,1,0,1583680869,"	find \"$1\" -name \"$2\" 2> /dev/null"
+"1	LINE	0
+	#-------------------------------#
+	# SimpleC-One Conky-------------#
+|3,0,1,1,2,0,1583633997,"#-------------------------------#","# SimpleC-One Conky-------------#"
 
 # File marks:
-'0  2  0  ~/.vimrc
-|4,48,2,0,1583618955,"~/.vimrc"
-'1  1  63  ~/.vimrc
-|4,49,1,63,1583618921,"~/.vimrc"
-'2  1  63  ~/.vimrc
-|4,50,1,63,1583618921,"~/.vimrc"
-'3  670  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,51,670,0,1583618801,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
-'4  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,52,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
-'5  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,53,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
-'6  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,54,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
-'7  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,55,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
-'8  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,56,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
-'9  3  81  ~/.vim/bundle/YouCompleteMe/install.sh
-|4,57,3,81,1583618481,"~/.vim/bundle/YouCompleteMe/install.sh"
+'0  125  29  ~/.zshrc
+|4,48,125,29,1583684152,"~/.zshrc"
+'1  125  68  ~/.zshrc
+|4,49,125,68,1583681273,"~/.zshrc"
+'2  2  19  ~/.scripts/functions.sh
+|4,50,2,19,1583680930,"~/.scripts/functions.sh"
+'3  4  9  ~/.scripts/functions.sh
+|4,51,4,9,1583680838,"~/.scripts/functions.sh"
+'4  4  9  ~/.scripts/functions.sh
+|4,52,4,9,1583680838,"~/.scripts/functions.sh"
+'5  4  13  ~/.scripts/functions.sh
+|4,53,4,13,1583680766,"~/.scripts/functions.sh"
+'6  4  13  ~/.scripts/functions.sh
+|4,54,4,13,1583680766,"~/.scripts/functions.sh"
+'7  3  11  ~/.scripts/functions.sh
+|4,55,3,11,1583680721,"~/.scripts/functions.sh"
+'8  3  11  ~/.scripts/functions.sh
+|4,56,3,11,1583680721,"~/.scripts/functions.sh"
+'9  3  11  ~/.scripts/functions.sh
+|4,57,3,11,1583680721,"~/.scripts/functions.sh"
 
 # Jumplist (newest first):
--'  2  0  ~/.vimrc
-|4,39,2,0,1583618955,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1583618930,"~/.vimrc"
--'  1  63  ~/.vimrc
-|4,39,1,63,1583618921,"~/.vimrc"
--'  670  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,670,0,1583618801,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  670  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,670,0,1583618801,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  670  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,670,0,1583618801,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  670  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,670,0,1583618801,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618686,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618686,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618686,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618686,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  182  2  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,182,2,1583618670,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618634,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618634,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618634,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-|4,39,1,0,1583618634,"~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  0  ~/.vim/bundle/YouCompleteMe/pytest.ini
-|4,39,1,0,1583618617,"~/.vim/bundle/YouCompleteMe/pytest.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  1  1  ~/.vim/bundle/YouCompleteMe/tox.ini
-|4,39,1,1,1583618603,"~/.vim/bundle/YouCompleteMe/tox.ini"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
--'  45  19  ~/.vim/bundle/YouCompleteMe/install.py
-|4,39,45,19,1583618516,"~/.vim/bundle/YouCompleteMe/install.py"
+-'  125  29  ~/.zshrc
+|4,39,125,29,1583684152,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1583684126,"~/.zshrc"
+-'  125  68  ~/.zshrc
+|4,39,125,68,1583681273,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1583680988,"~/.zshrc"
+-'  2  19  ~/.scripts/functions.sh
+|4,39,2,19,1583680930,"~/.scripts/functions.sh"
+-'  2  19  ~/.scripts/functions.sh
+|4,39,2,19,1583680930,"~/.scripts/functions.sh"
+-'  2  19  ~/.scripts/functions.sh
+|4,39,2,19,1583680930,"~/.scripts/functions.sh"
+-'  2  19  ~/.scripts/functions.sh
+|4,39,2,19,1583680930,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680864,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680864,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680864,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680864,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  4  9  ~/.scripts/functions.sh
+|4,39,4,9,1583680838,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680789,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680789,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680789,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680789,"~/.scripts/functions.sh"
+-'  4  13  ~/.scripts/functions.sh
+|4,39,4,13,1583680766,"~/.scripts/functions.sh"
+-'  4  13  ~/.scripts/functions.sh
+|4,39,4,13,1583680766,"~/.scripts/functions.sh"
+-'  4  13  ~/.scripts/functions.sh
+|4,39,4,13,1583680766,"~/.scripts/functions.sh"
+-'  4  13  ~/.scripts/functions.sh
+|4,39,4,13,1583680766,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680757,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680757,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680757,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680757,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  3  11  ~/.scripts/functions.sh
+|4,39,3,11,1583680721,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680572,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680572,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680572,"~/.scripts/functions.sh"
+-'  1  0  ~/.scripts/functions.sh
+|4,39,1,0,1583680572,"~/.scripts/functions.sh"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
+-'  8  25  ~/.zshaliases
+|4,39,8,25,1583680550,"~/.zshaliases"
 
 # History of marks within files (newest to oldest):
 
+> ~/.zshrc
+	*	1583684151	0
+	"	125	29
+	^	125	30
+	.	125	29
+	+	124	0
+	+	6	0
+	+	1	0
+	+	124	43
+	+	124	31
+	+	125	29
+
+> ~/.scripts/functions.sh
+	*	1583680928	0
+	"	2	19
+	^	2	20
+	.	2	20
+	+	3	13
+	+	5	0
+	+	4	0
+	+	3	9
+	+	4	31
+	+	4	27
+	+	2	52
+	+	4	27
+	+	2	39
+	+	4	9
+	+	7	0
+	+	7	34
+	+	8	0
+	+	4	16
+	+	6	0
+	+	2	20
+
+> ~/.zshaliases
+	*	1583680549	0
+	"	8	25
+	^	8	26
+	.	9	0
+	+	7	85
+	+	9	0
+
+> ~/.scripts/mystartup
+	*	1583679919	0
+	"	1	0
+	^	8	9
+	.	8	8
+	+	8	8
+
+> ~/.config/conky/MyConky/SimplecOne/conkyrc1
+	*	1583677225	0
+	"	40	31
+	^	40	32
+	.	40	31
+	+	1	0
+	+	40	31
+
+> ~/.config/conky/MyConky/SimplecOne/start.sh
+	*	1583677177	0
+	"	1	0
+
+> ~/.config/conky/MyConky/start.sh
+	*	1583634272	0
+	"	6	55
+	^	6	56
+	.	6	54
+	+	2	23
+	+	4	35
+	+	5	0
+	+	6	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	54
+	+	5	55
+	+	4	54
+	+	5	54
+	+	6	54
+
+> ~/.gitmodules
+	*	1583633677	0
+	"	6	7
+	^	5	16
+	.	5	16
+	+	5	16
+
+> ~/.config/.gitmodules
+	*	1583633258	0
+	"	1	0
+
+> ~/.Xresources
+	*	1583624045	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	42
+	+	3	43
+	+	2	43
+	+	3	44
+	+	4	19
+	+	2	21
+
+> ~/.oh-my-zsh/themes/gnzh.zsh-theme
+	*	1583623533	0
+	"	17	20
+	^	19	0
+	.	18	2
+	+	18	2
+
 > ~/.vimrc
-	*	1583618954	0
-	"	2	0
-	^	2	0
+	*	1583623359	0
+	"	1	0
+	^	1	64
 	.	2	0
 	+	15	8
-	+	2	0
+	+	1	64
 	+	1	63
+	+	1	64
+	+	57	12
+	+	1	64
+	+	56	24
+	+	1	64
 	+	2	0
+
+> ~/.dmrc
+	*	1583622807	0
+	"	1	8
+
+> ~/.viminfo
+	*	1583622210	0
+	"	79	0
+
+> ~/.scripts/.zshrc
+	*	1583622147	0
+	"	1	0
+
+> ~/.scripts/.zshr
+	*	1583622142	0
+	"	1	0
+
+> ~/.scripts/.zsh
+	*	1583622134	0
+	"	1	0
+
+> ~/.scripts/betterlockscreen
+	*	1583622109	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/.oh-my-zsh/themes/ys.zsh-theme
+	*	1583620075	0
+	"	26	0
+
+> ~/.gitconfig
+	*	1583619278	0
+	"	3	21
+	^	3	22
+	.	3	21
+	+	3	21
 
 > ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
 	*	1583618800	0
@@ -347,30 +512,6 @@ $
 > ~/.oh-my-zsh/plugins/autojump/README.md
 	*	1583606787	0
 	"	11	53
-
-> ~/.zshrc
-	*	1583606360	0
-	"	76	0
-	^	103	21
-	.	124	0
-	+	124	0
-
-> ~/.Xresources
-	*	1583606237	0
-	"	3	44
-	^	3	45
-	.	3	44
-	+	2	42
-	+	3	43
-	+	2	43
-	+	3	44
-
-> ~/.zshaliases
-	*	1583604781	0
-	"	7	55
-	^	7	56
-	.	7	55
-	+	7	55
 
 > ~/.config/awesome/myCode.lua
 	*	1583603941	0
