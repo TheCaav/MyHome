@@ -123,5 +123,5 @@ zmodload zsh/mathfunc
 source /home/curankar/.zshaliases
 source /home/curankar/.scripts/functions.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 setopt no_share_history

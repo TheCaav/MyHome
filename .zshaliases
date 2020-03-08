@@ -6,3 +6,4 @@ alias slideGroff="groff -P-l -mm -mpresent file.rof > file.pps && ./presentps -l
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias mntSSD='sudo cryptsetup open /dev/sda1 SSD && sudo mount /dev/mapper/SSD ~/SSD'
 alias duda='du -a -d 1 -h'
+alias lo='pkill -u curankar'
