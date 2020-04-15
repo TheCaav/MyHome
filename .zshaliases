@@ -1,6 +1,14 @@
 #!/bin/zsh
 # My zsh aliases
 alias conTT="bluetoothctl connect EB:06:EF:60:FB:6E"
+alias conBH="bluetoothctl connect 00:86:10:16:04:8E" # or EC:44:62:E5:15:E8
+alias conAu="bluetoothctl connect F4:4E:FD:59:4F:0A"
+alias mntSSD='sudo cryptsetup open /dev/sda1 SSD && sudo mount /dev/mapper/SSD ~/stick'
+alias mntSSDb='sudo cryptsetup open /dev/sdb1 SSD && sudo mount /dev/mapper/SSD ~/stick'
+alias mntSSDc='sudo cryptsetup open /dev/sdc1 SSD && sudo mount /dev/mapper/SSD ~/stick'
 alias compGroff="groff -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
 alias slideGroff="groff -P-l -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+#alias -g ls='ls --color=auto'
+alias -g grep='grep --color=auto'

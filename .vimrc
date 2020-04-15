@@ -52,3 +52,4 @@ set tabstop=3
 set shiftwidth=3 " 4th option keep these always the same
 set noexpandtab " no tabs to spaces
 
+"colorscheme solarized
