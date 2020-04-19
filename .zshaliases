@@ -1,9 +1,20 @@
 #!/bin/zsh
 # My zsh aliases
 alias conTT="bluetoothctl connect EB:06:EF:60:FB:6E"
+alias conBH="bluetoothctl connect 00:86:10:16:04:8E" #altern C0...
+alias conAu="bluetoothctl connect F4:4E:FD:59:4F:0A"
 alias compGroff="groff -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
 alias slideGroff="groff -P-l -mm -mpresent file.rof > file.pps && ./presentps -l < file.pps > file.ps && ps2pdf file.ps"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias mntSSD='sudo cryptsetup open /dev/sda1 SSD && sudo mount /dev/mapper/SSD ~/SSD'
+# mount & unmount sticks/ssds
+alias mntSSD='sudo cryptsetup open /dev/sda1 SSD; sudo mount /dev/mapper/SSD ~/SSD'
+mntSSDb() {sudo cryptsetup open /dev/$1 SSD; sudo mount /dev/mapper/SSD ~/SSD}
+alias umntSSD='sudo umount ~/SSD; sudo cryptsetup close SSD' 
+alias cryptClose='sudo cryptsetup close SSD'
+
 alias duda='du -a -d 1 -h'
 alias lo='pkill -u curankar'
+
+alias install='sudo pacman -S -y '
+alias search='pacman -Ss '
+alias update='sudo pacman -Syyu'
