@@ -69,7 +69,7 @@ ZSH_THEME="ys" # Own spin on Plugin. An older version can be found in /Documents
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize copydir dircycle web-search autojump zsh-completions)
+plugins=(colorize copydir dircycle web-search autojump zsh-completions)
 
 #TERM=rxvt-unicode-256color
 
