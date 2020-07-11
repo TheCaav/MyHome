@@ -52,4 +52,5 @@ set tabstop=3
 set shiftwidth=3 " 4th option keep these always the same
 set noexpandtab " no tabs to spaces
 
+cmap w!! w !sudo tee > /dev/null %
 "colorscheme solarized
