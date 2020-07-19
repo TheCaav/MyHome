@@ -69,7 +69,7 @@ ZSH_THEME="ys" # Own spin on Plugin. An older version can be found in /Documents
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize copydir dircycle web-search autojump)
+plugins=(colorize copydir dircycle web-search autojump zsh-completions)
 
 #TERM=rxvt-unicode-256color
 
@@ -121,7 +121,8 @@ zmodload zsh/mathfunc
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # My Alias File
 source /home/curankar/.zshaliases
-source /home/curankar/controls.sh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
 source /home/curankar/.zshvariables
+source /home/curankar/.scripts/functions.sh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 setopt no_share_history

@@ -1,6 +1,6 @@
 !! URxvt Appearance
-URxvt.font: xft:Monaco:style=Regular:size=11
-URxvt.boldFont: xft:Monaco:style=Bold:size=11
+URxvt.font: xft:Monaco:style=Regular:size=12
+URxvt.boldFont: xft:Monaco:style=Bold:size=12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 !URxvt.geometry: 92x24
@@ -55,13 +55,11 @@ URxvt.secondaryScroll: 0
 *color7:  #DCDCCC
 *color15: #FFFFFF
 
-*background: [90]#101010
+URxvt.background: [90]#101010
 *foreground: #d4d4d4
 
 !Keybind fixes
 !execute "bindkey" in Terminal to see codes
 URxvt.keysym.Shift-Control-Right: \033[1;6C
 URxvt.keysym.Shift-Control-Left: \033[1;6D
-
-
 

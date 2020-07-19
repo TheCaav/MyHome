@@ -20,3 +20,11 @@ alias umntRemote='fusermount3 -u /home/curankar/stick'
 
 #alias -g ls='ls --color=auto'
 alias -g grep='grep --color=auto'
+alias cryptClose='sudo cryptsetup close SSD'
+
+alias duda='du -a -d 1 -h'
+alias lo='pkill -u curankar'
+
+alias install='sudo pacman -S -y '
+alias search='pacman -Ss '
+alias update='sudo pacman -Syyu'
