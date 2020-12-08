@@ -4,6 +4,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/curankar/.scripts
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Path to own python scripts
+export PYTHONPATH=/home/curankar/.scripts/python
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -121,7 +123,7 @@ zmodload zsh/mathfunc
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # My Alias File
 source /home/curankar/.zshaliases
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2> /dev/null
 source /home/curankar/.zshvariables
 source /home/curankar/.scripts/functions.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh

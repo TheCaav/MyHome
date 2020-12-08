@@ -3,6 +3,7 @@
 alias conTT="bluetoothctl connect EB:06:EF:60:FB:6E"
 alias conBH="bluetoothctl connect 00:86:10:16:04:8E" # or EC:44:62:E5:15:E8
 alias conAu="bluetoothctl connect F4:4E:FD:59:4F:0A"
+alias conUE="bluetoothctl connect C0:28:8D:37:04:49"
 alias mntSSD='sudo cryptsetup open /dev/sda1 SSD && sudo mount /dev/mapper/SSD ~/stick'
 alias mntSSDb='sudo cryptsetup open /dev/sdb1 SSD && sudo mount /dev/mapper/SSD ~/stick'
 alias mntSSDc='sudo cryptsetup open /dev/sdc1 SSD && sudo mount /dev/mapper/SSD ~/stick'
@@ -26,5 +27,6 @@ alias duda='du -a -d 1 -h'
 alias lo='pkill -u curankar'
 
 alias install='sudo pacman -S -y '
+alias uninstall='sudo pacman -R '
 alias search='pacman -Ss '
 alias update='sudo pacman -Syyu'

@@ -1,1 +1,2 @@
-PRAKTROOT=/home/curankar/stick/Documents/Uni/Kryptoanalyse/
+#PRAKTROOT=/home/curankar/stick/Documents/Uni/Kryptoanalyse/
+TERM=rxvt-256color
