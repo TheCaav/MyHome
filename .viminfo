@@ -11,42 +11,153 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/brightnessa
+~MSle0~/TERM
+
+# Last Substitute Search Pattern:
+~MSle0&ip
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1583684152,,"wq"
-:w
-|2,0,1583681043,,"w"
+|2,0,1607441666,,"wq"
 :q
-|2,0,1583679924,,"q"
-:Q
-|2,0,1583679880,,"Q"
+|2,0,1607183311,,"q"
+:qa
+|2,0,1607180029,,"qa"
+:w
+|2,0,1605534589,,"w"
 :q!
-|2,0,1583634019,,"q!"
-:q#
-|2,0,1583634015,,"q#"
+|2,0,1605966650,,"q!"
+:Q
+|2,0,1605550411,,"Q"
+:wq!
+|2,0,1605188899,,"wq!"
+:ww
+|2,0,1605188895,,"ww"
+:!w
+|2,0,1605188883,,"!w"
+:w!
+|2,0,1605188867,,"w!"
 :Wq
-|2,0,1583624021,,"Wq"
+|2,0,1605188863,,"Wq"
+:'<,'>q
+|2,0,1602149827,,"'<,'>q"
+:r work_auskunft.sh
+|2,0,1599564253,,"r work_auskunft.sh"
+:w !sudo tee > /dev/null %
+|2,0,1598715271,,"w !sudo tee > /dev/null %"
+:%s/ip/device/gc
+|2,0,1598647369,,"%s/ip/device/gc"
+:bn
+|2,0,1598644916,,"bn"
+:open btctrl.py
+|2,0,1598644838,,"open btctrl.py"
+:%s/inv/gHighM/gc
+|2,0,1597844400,,"%s/inv/gHighM/gc"
+:!
+|2,0,1597691844,,"!"
+:vsplit
+|2,0,1597687017,,"vsplit"
+:search 
+|2,0,1597686714,,"search "
+:gn
+|2,0,1597678313,,"gn"
+:wbn
+|2,0,1597676201,,"wbn"
+:b
+|2,0,1597675915,,"b"
+:ii
+|2,0,1596370941,,"ii"
+:r scale-1600
+|2,0,1596370855,,"r scale-1600"
+:e screen-chooser
+|2,0,1595440377,,"e screen-chooser"
+:b2
+|2,0,1595439559,,"b2"
+:b1
+|2,0,1595439453,,"b1"
+:W
+|2,0,1595439052,,"W"
+:bp
+|2,0,1595438994,,"bp"
+:buffers
+|2,0,1595438882,,"buffers"
+:e isearch
+|2,0,1595438875,,"e isearch"
+:q#
+|2,0,1595407786,,"q#"
+:%s/\[:alpha:\]/0-9/gc
+|2,0,1587322476,,"%s/\\[:alpha:\\]/0-9/gc"
+:%s/ 5//gc
+|2,0,1584821225,,"%s/ 5//gc"
+:^e
+|2,0,1584821214,,"^e"
+:qw
+|2,0,1584538485,,"qw"
 :PluginInstall
 |2,0,1583601437,,"PluginInstall"
 
 # Search String History (newest to oldest):
-?/90
-|2,1,1583623359,47,"90"
-?/brightnessa
-|2,1,1583614036,47,"brightnessa"
-?/font
-|2,1,1583613474,47,"font"
+?/iaeste
+|2,1,1605967762,47,"iaeste"
+?/IAESTE
+|2,1,1605967707,47,"IAESTE"
+?/sprungbrett
+|2,1,1605967306,47,"sprungbrett"
+?/sds
+|2,1,1605967212,47,"sds"
+?/eduref
+|2,1,1605966943,47,"eduref"
+?/mun
+|2,1,1605966902,47,"mun"
+?/ev
+|2,1,1605966884,47,"ev"
+?/munika
+|2,1,1605966878,47,"munika"
+?/sfc
+|2,1,1605966751,47,"sfc"
+?/estiem
+|2,1,1605966730,47,"estiem"
+?/fuks
+|2,1,1605966711,47,"fuks"
+?/acem
+|2,1,1605533988,47,"acem"
+?/info@abgedreht
+|2,1,1605533981,47,"info@abgedreht"
+?/rise
+|2,1,1605967229,47,"rise"
+?/edu
+|2,1,1605966982,47,"edu"
 ? @$
-|2,1,1583605651,,"@$"
-? \<bin\>
-|2,1,1583604770,,"\\<bin\\>"
-?/back
-|2,1,1583603820,47,"back"
+|2,1,1605100949,,"@$"
+?/TERM
+|2,1,1605085067,47,"TERM"
+?/fwupd
+|2,1,1598714353,47,"fwupd"
+? ip
+|2,1,1598647369,,"ip"
+?/to
+|2,1,1598641541,47,"to"
+?/By
+|2,1,1598641164,47,"By"
+? inv
+|2,1,1597844400,,"inv"
+? \<highlight\>
+|2,1,1597686728,,"\\<highlight\\>"
+?/printLogs
+|2,1,1595528570,47,"printLogs"
+? \[:alpha:\]
+|2,1,1587322476,,"\\[:alpha:\\]"
+?/%s/\[\:alpha\:\]/0\-9/gc
+|2,1,1587322429,47,"%s/\\[\\:alpha\\:\\]/0\\-9/gc"
+?/%s/\[:alpha:\]/0-9/gc
+|2,1,1587322387,47,"%s/\\[:alpha:\\]/0-9/gc"
+?/cherri
+|2,1,1587207838,47,"cherri"
+?/cherry
+|2,1,1587207828,47,"cherry"
 
 # Expression History (newest to oldest):
 
@@ -56,489 +167,1141 @@ $
 
 # Registers:
 ""0	LINE	0
-		find "$1" -name "$2" 2> /dev/null
-|3,1,0,1,1,0,1583680869,"	find \"$1\" -name \"$2\" 2> /dev/null"
+	* ^(To|CC|Cc):.*kultur@(usta.de|asta-kit.de|asta.kit.edu)
+	Kultur
+|3,1,0,1,2,0,1606827313,"* ^(To|CC|Cc):.*kultur@(usta.de|asta-kit.de|asta.kit.edu)","Kultur"
 "1	LINE	0
-	#-------------------------------#
-	# SimpleC-One Conky-------------#
-|3,0,1,1,2,0,1583633997,"#-------------------------------#","# SimpleC-One Conky-------------#"
+	karlsruhe@zugvoegel.org
+|3,0,1,1,1,0,1605534823,"karlsruhe@zugvoegel.org"
+"2	LINE	0
+	Hallo liebe Studis,
+	
+	282
+<Wir wollen euch daran erinnern, dass ihr ab Donnerstag (01.10.) die neue KVV-Bescheinigung braucht, um nach 18 Uhr bis 6 Uhr und am Wochenende kostenlos den KVV-Nahverkehr (ohne Semesterticket) nutzen zu können. Wer diese also noch nicht ausgedruckt hat, sollte das bald machen.
+	https://campus.studium.kit.edu/reports/studyreports.php
+	
+	288
+<Wer keinen Drucker zuhause hat, kann das z.B. in der Uni-Bib machen "https://www.bibliothek.kit.edu/scannen-kopieren-drucken.php" oder im SCC, wenn ihr noch Guthaben auf der KIT-Karte habt oder das "autoload"-Verfahren aktiviert habt "https://www.scc.kit.edu/dienste/printundplot.php".
+	
+	Mietende beim Studierendenwerk sollten außerdem daran denken, dem Studierendenwerk ihre aktuelle Immatrikulationsbescheinigung zukommen zu lassen.
+	
+	MfG
+	Calvin Urankar
+	Pressereferent der KIT-Studierendenschaft
+|3,0,2,1,12,0,1602147511,"Hallo liebe Studis,","","Wir wollen euch daran erinnern, dass ihr ab Donnerstag (01.10.) die neue KVV-Bescheinigung braucht, um nach 18 Uhr bis 6 Uhr und am Wochenende kostenlos den KVV-Nahverkehr (ohne Semesterticket) nutzen zu können. Wer diese also noch nicht ausgedruckt hat, sollte das bald machen.","https://campus.studium.kit.edu/reports/studyreports.php","",>293
+|<"Wer keinen Drucker zuhause hat, kann das z.B. in der Uni-Bib machen \"https://www.bibliothek.kit.edu/scannen-kopieren-drucken.php\" oder im SCC, wenn ihr noch Guthaben auf der KIT-Karte habt oder das \"autoload\"-Verfahren aktiviert habt \"https://www.scc.kit.edu/dienste/printundplot.php\".","","Mietende beim Studierendenwerk sollten außerdem daran denken, dem Studierendenwerk ihre aktuelle Immatrikulationsbescheinigung zukommen zu lassen.","","MfG","Calvin Urankar",>43
+|<"Pressereferent der KIT-Studierendenschaft"
+"3	LINE	0
+	ssh -N -L 8080:i08worktime.informatik.kit.edu:443 atis;
+|3,0,3,1,1,0,1601638262,"ssh -N -L 8080:i08worktime.informatik.kit.edu:443 atis;"
+"4	LINE	0
+	Hallo liebe HSGs
+	
+	Im November will der AStA wieder mal ein Ventil herausgeben. Dieses soll die Angebote des AStA und HSGs für die Studenten vorstellen und zusammenfassen.
+	Deswegen würde ich die HSGs bitten mir (presseæasta-kit.de) bis zum 12.10. Vorstellung/Angebotsstexte, die ungefähr auf eine DIN-A6 Seite passen, zuzusenden. Gerne auch mit passenden Bildern.
+	Falls ihr nicht im Ventil erscheinen wollt, müsst ihr mir auch nichts schicken.
+	Bei Fragen einfach an calvinu@asta-kit.de schreiben.
+	
+	MfG
+	Calvin Urankar
+	Pressereferent der AStA
+|3,0,4,1,10,0,1601391792,"Hallo liebe HSGs","","Im November will der AStA wieder mal ein Ventil herausgeben. Dieses soll die Angebote des AStA und HSGs für die Studenten vorstellen und zusammenfassen.","Deswegen würde ich die HSGs bitten mir (presseæasta-kit.de) bis zum 12.10. Vorstellung/Angebotsstexte, die ungefähr auf eine DIN-A6 Seite passen, zuzusenden. Gerne auch mit passenden Bildern.",>82
+|<"Falls ihr nicht im Ventil erscheinen wollt, müsst ihr mir auch nichts schicken.","Bei Fragen einfach an calvinu@asta-kit.de schreiben.","","MfG","Calvin Urankar","Pressereferent der AStA"
+"5	LINE	0
+	Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung
+|3,0,5,1,1,0,1601389563,"Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung"
+"6	LINE	0
+	Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung
+|3,0,6,1,1,0,1600629481,"Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung"
+"7	LINE	0
+	Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung
+|3,0,7,1,1,0,1600629477,"Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung"
+"8	LINE	0
+	Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung
+|3,0,8,1,1,0,1599489832,"Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung"
+"9	LINE	0
+	Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung
+|3,0,9,1,1,0,1599489819,"Ich glaube ihr habt meinen Benutzernamen für die Accounterstellung nicht korrekt übernommen. Ich kann mich weder über ssh noch über die asta-kit.de/user webseite einloggen. Wenn ich ein Passwort anfordere, kommt die Meldung"
+"-	CHAR	0
+	2
+|3,0,36,0,1,0,1600378904,"2"
 
 # File marks:
-'0  125  29  ~/.zshrc
-|4,48,125,29,1583684152,"~/.zshrc"
-'1  125  68  ~/.zshrc
-|4,49,125,68,1583681273,"~/.zshrc"
-'2  2  19  ~/.scripts/functions.sh
-|4,50,2,19,1583680930,"~/.scripts/functions.sh"
-'3  4  9  ~/.scripts/functions.sh
-|4,51,4,9,1583680838,"~/.scripts/functions.sh"
-'4  4  9  ~/.scripts/functions.sh
-|4,52,4,9,1583680838,"~/.scripts/functions.sh"
-'5  4  13  ~/.scripts/functions.sh
-|4,53,4,13,1583680766,"~/.scripts/functions.sh"
-'6  4  13  ~/.scripts/functions.sh
-|4,54,4,13,1583680766,"~/.scripts/functions.sh"
-'7  3  11  ~/.scripts/functions.sh
-|4,55,3,11,1583680721,"~/.scripts/functions.sh"
-'8  3  11  ~/.scripts/functions.sh
-|4,56,3,11,1583680721,"~/.scripts/functions.sh"
-'9  3  11  ~/.scripts/functions.sh
-|4,57,3,11,1583680721,"~/.scripts/functions.sh"
+'0  1  0  ~/.scripts/Dockviewer
+|4,48,1,0,1607441666,"~/.scripts/Dockviewer"
+'1  1  0  ~/.scripts/dmenu
+|4,49,1,0,1607441653,"~/.scripts/dmenu"
+'2  39  33  ~/.scripts/cloneHome
+|4,50,39,33,1607441542,"~/.scripts/cloneHome"
+'3  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,51,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+'4  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,52,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+'5  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,53,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+'6  71  66  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,54,71,66,1607185927,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+'7  55  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/StreamHttpServer.java
+|4,55,55,0,1607185837,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/StreamHttpServer.java"
+'8  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/RawJpegBytes.java
+|4,56,1,0,1607185800,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/RawJpegBytes.java"
+'9  1  0  ~/Downloads/lumix-link-desktop-master/Control.sh
+|4,57,1,0,1607183311,"~/Downloads/lumix-link-desktop-master/Control.sh"
 
 # Jumplist (newest first):
--'  125  29  ~/.zshrc
-|4,39,125,29,1583684152,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1583684126,"~/.zshrc"
--'  125  68  ~/.zshrc
-|4,39,125,68,1583681273,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1583680988,"~/.zshrc"
--'  2  19  ~/.scripts/functions.sh
-|4,39,2,19,1583680930,"~/.scripts/functions.sh"
--'  2  19  ~/.scripts/functions.sh
-|4,39,2,19,1583680930,"~/.scripts/functions.sh"
--'  2  19  ~/.scripts/functions.sh
-|4,39,2,19,1583680930,"~/.scripts/functions.sh"
--'  2  19  ~/.scripts/functions.sh
-|4,39,2,19,1583680930,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680864,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680864,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680864,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680864,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  4  9  ~/.scripts/functions.sh
-|4,39,4,9,1583680838,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680789,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680789,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680789,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680789,"~/.scripts/functions.sh"
--'  4  13  ~/.scripts/functions.sh
-|4,39,4,13,1583680766,"~/.scripts/functions.sh"
--'  4  13  ~/.scripts/functions.sh
-|4,39,4,13,1583680766,"~/.scripts/functions.sh"
--'  4  13  ~/.scripts/functions.sh
-|4,39,4,13,1583680766,"~/.scripts/functions.sh"
--'  4  13  ~/.scripts/functions.sh
-|4,39,4,13,1583680766,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680757,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680757,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680757,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680757,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  3  11  ~/.scripts/functions.sh
-|4,39,3,11,1583680721,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680572,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680572,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680572,"~/.scripts/functions.sh"
--'  1  0  ~/.scripts/functions.sh
-|4,39,1,0,1583680572,"~/.scripts/functions.sh"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
--'  8  25  ~/.zshaliases
-|4,39,8,25,1583680550,"~/.zshaliases"
+-'  1  0  ~/.scripts/Dockviewer
+|4,39,1,0,1607441666,"~/.scripts/Dockviewer"
+-'  1  0  ~/.scripts/dmenu
+|4,39,1,0,1607441653,"~/.scripts/dmenu"
+-'  1  0  ~/.scripts/dmenu
+|4,39,1,0,1607441653,"~/.scripts/dmenu"
+-'  39  33  ~/.scripts/cloneHome
+|4,39,39,33,1607441542,"~/.scripts/cloneHome"
+-'  39  33  ~/.scripts/cloneHome
+|4,39,39,33,1607441542,"~/.scripts/cloneHome"
+-'  39  33  ~/.scripts/cloneHome
+|4,39,39,33,1607441542,"~/.scripts/cloneHome"
+-'  39  33  ~/.scripts/cloneHome
+|4,39,39,33,1607441542,"~/.scripts/cloneHome"
+-'  1  0  ~/.scripts/cloneHome
+|4,39,1,0,1607441314,"~/.scripts/cloneHome"
+-'  1  0  ~/.scripts/cloneHome
+|4,39,1,0,1607441314,"~/.scripts/cloneHome"
+-'  1  0  ~/.scripts/cloneHome
+|4,39,1,0,1607441314,"~/.scripts/cloneHome"
+-'  1  0  ~/.scripts/cloneHome
+|4,39,1,0,1607441314,"~/.scripts/cloneHome"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  13  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,13,0,1607425830,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  1  0  ~/Documents/AStA/Ventil/Vorwort.txt
+|4,39,1,0,1607425386,"~/Documents/AStA/Ventil/Vorwort.txt"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  71  63  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,71,63,1607185987,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+|4,39,1,0,1607185957,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  67  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,67,0,1607185948,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
+-'  1  0  ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+|4,39,1,0,1607185932,"~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java"
 
 # History of marks within files (newest to oldest):
 
-> ~/.zshrc
-	*	1583684151	0
-	"	125	29
-	^	125	30
-	.	125	29
-	+	124	0
-	+	6	0
-	+	1	0
-	+	124	43
-	+	124	31
-	+	125	29
-
-> ~/.scripts/functions.sh
-	*	1583680928	0
-	"	2	19
-	^	2	20
-	.	2	20
-	+	3	13
-	+	5	0
+> ~/.scripts/Dockviewer
+	*	1607441656	0
+	"	1	0
+	^	3	107
+	.	3	106
+	+	6	12
+	+	7	28
+	+	6	12
+	+	7	16
+	+	3	35
+	+	5	5
+	+	3	0
 	+	4	0
-	+	3	9
-	+	4	31
-	+	4	27
-	+	2	52
-	+	4	27
-	+	2	39
-	+	4	9
-	+	7	0
-	+	7	34
-	+	8	0
-	+	4	16
-	+	6	0
-	+	2	20
+	+	3	35
+	+	4	0
+	+	3	36
+	+	7	5
+	+	9	39
+	+	9	19
+	+	9	0
+	+	9	19
+	+	8	5
+	+	9	19
+	+	9	0
+	+	10	16
+	+	11	6
+	+	13	0
+	+	12	0
+	+	10	20
+	+	11	7
+	+	3	106
+
+> ~/.scripts/dmenu
+	*	1607441641	0
+	"	1	0
+
+> ~/.scripts/cloneHome
+	*	1607441542	0
+	"	39	33
+	^	39	34
+	.	39	33
+	+	38	35
+	+	39	33
+
+> ~/Documents/AStA/Ventil/Vorwort.txt
+	*	1607425830	0
+	"	13	0
+	^	13	0
+	.	14	0
+	+	6	165
+	+	6	161
+	+	8	52
+	+	4	250
+	+	8	259
+	+	10	112
+	+	12	8
+	+	13	631
+	+	13	423
+	+	13	559
+	+	13	353
+	+	13	253
+	+	13	71
+	+	10	59
+	+	13	624
+	+	10	76
+	+	14	0
+
+> ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/BasicLumixControl.java
+	*	1607185986	0
+	"	71	63
+	^	71	64
+	.	71	63
+	+	71	63
+
+> ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/Main.java
+	*	1607185947	0
+	"	67	0
+
+> ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/StreamHttpServer.java
+	*	1607185835	0
+	"	55	0
+
+> ~/Downloads/lumix-wifi-webcam-master/src/main/java/hack/RawJpegBytes.java
+	*	1607185800	0
+	"	1	0
+
+> ~/Downloads/lumix-link-desktop-master/Control.sh
+	*	1607183309	0
+	"	1	0
+
+> ~/Downloads/lumix-link-desktop-master/Control.sj
+	*	1607183277	0
+	"	1	0
+
+> ~/Downloads/lumix-link-desktop-master/Control.html
+	*	1607183262	0
+	"	288	1
+	^	288	2
+	.	55	41
+	+	55	41
+
+> ~/Downloads/lumix-link-desktop-master/StreamViewer/src/streamviewer/StreamViewer.java
+	*	1607183085	0
+	"	149	0
+
+> ~/Downloads/lumix-link-desktop-master/StreamViewer/src/streamviewer/VideoPanel.java
+	*	1607183049	0
+	"	41	0
+
+> ~/Downloads/lumix-link-desktop-master/StreamViewer/src/streamviewer/LumixStreamViewer.java
+	*	1607183009	0
+	"	64	0
+
+> ~/Downloads/lumix-link-desktop-master/StreamViewer/build.xml
+	*	1607181584	0
+	"	1	0
+
+> ~/Downloads/python_lumix_control-master/live_view.py
+	*	1607181156	0
+	"	16	17
+	^	16	18
+	.	16	18
+	+	16	18
+
+> ~/Downloads/python_lumix_control-master/live_view.py#
+	*	1607181140	0
+	"	1	0
+
+> ~/Downloads/python_lumix_control-master/lumix_control.py
+	*	1607181008	0
+	"	256	18
+	^	256	19
+	.	256	18
+	+	256	18
+
+> ~/Downloads/python_lumix_control-master/example/auto_discovery/auto_discovery.py
+	*	1607180147	0
+	"	1	0
+
+> ~/Downloads/python_lumix_control-master/example/live_view.py
+	*	1607179603	0
+	"	7	17
+	^	7	18
+	.	7	17
+	+	7	17
+
+> ~/my-logfile.txt
+	*	1607175254	0
+	"	160	0
+
+> ~/.config/pavucontrol.ini
+	*	1606859424	0
+	"	6	0
+
+> ~/.procmailrc
+	*	1606827369	0
+	"	61	0
+	^	61	0
+	.	211	4
+	+	210	20
+	+	211	4
+
+> ~/test
+	*	1606758557	0
+	"	8	26
+	^	4	6
+	.	4	5
+	+	1	12
+	+	1	0
+	+	1	11
+	+	1	20
+	+	1	12
+	+	1	227
+	+	1	5
+	+	1	84
+	+	1	227
+	+	1	3
+	+	1	8
+	+	1	16
+	+	1	153
+	+	1	112
+	+	1	74
+	+	1	22
+	+	1	60
+	+	1	6
+	+	1	18
+	+	1	243
+	+	1	181
+	+	1	587
+	+	1	142
+	+	1	546
+	+	1	40
+	+	1	15
+	+	1	199
+	+	4	5
+
+> ~/.config/openvpn/awsclient.ovpn
+	*	1606680138	0
+	"	24	28
+
+> ~/majordomomail.txt
+	*	1606296712	0
+	"	14	0
+	^	6	79
+	.	6	78
+	+	6	78
+
+> ~/hsgnotyetonlist.txt
+	*	1606296430	0
+	"	1	0
+
+> ~/Documents/PenTesting/WG/privatekey
+	*	1606054123	0
+	"	1	0
+
+> ~/hsgs.txt
+	*	1605967846	0
+	"	42	30
+	^	76	23
+	.	76	22
+	+	76	22
+
+> ~/temp
+	*	1605967762	0
+	"	56	5
+	^	93	26
+	.	145	47
+	+	145	47
+
+> ~/addhsg.txt
+	*	1605966646	0
+	"	2	0
+	^	2	0
+	.	1	16
+	+	1	16
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/webprinting.php
+	*	1605965344	0
+	"	19	74
+	^	19	75
+	.	19	74
+	+	98	0
+	+	81	0
+	+	98	17
+	+	101	5
+	+	99	42
+	+	100	161
+	+	99	38
+	+	100	157
+	+	19	74
 
 > ~/.zshaliases
-	*	1583680549	0
-	"	8	25
-	^	8	26
-	.	9	0
-	+	7	85
-	+	9	0
+	*	1605617611	0
+	"	30	31
+	^	30	32
+	.	30	31
+	+	10	85
+	+	17	0
+	+	17	9
+	+	13	0
+	+	12	12
+	+	10	13
+	+	12	85
+	+	12	38
+	+	13	0
+	+	10	28
+	+	13	39
+	+	12	43
+	+	11	48
+	+	13	32
+	+	4	40
+	+	3	40
+	+	4	65
+	+	5	51
+	+	19	26
+	+	21	26
+	+	20	25
+	+	19	16
+	+	21	18
+	+	19	12
+	+	14	43
+	+	15	66
+	+	6	51
+	+	15	14
+	+	32	0
+	+	30	31
 
-> ~/.scripts/mystartup
-	*	1583679919	0
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc/README.md
+	*	1605551491	0
+	"	29	0
+	^	23	247
+	.	23	247
+	+	23	247
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc/src/main/java/edu/kit/informatik/atis/cups/backend/jacc/Main.java
+	*	1605551288	0
+	"	57	6
+	^	57	7
+	.	54	6
+	+	5	76
+	+	20	24
+	+	53	0
+	+	59	0
+	+	54	6
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc2/src/main/java/edu/kit/informatik/atis/cups/backend/jacc/Main.java
+	*	1605551262	0
+	"	54	7
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc2/settings.gradle
+	*	1605551036	0
 	"	1	0
-	^	8	9
-	.	8	8
-	+	8	8
 
-> ~/.config/conky/MyConky/SimplecOne/conkyrc1
-	*	1583677225	0
-	"	40	31
-	^	40	32
-	.	40	31
-	+	1	0
-	+	40	31
-
-> ~/.config/conky/MyConky/SimplecOne/start.sh
-	*	1583677177	0
-	"	1	0
-
-> ~/.config/conky/MyConky/start.sh
-	*	1583634272	0
-	"	6	55
-	^	6	56
-	.	6	54
-	+	2	23
-	+	4	35
-	+	5	0
-	+	6	0
-	+	3	0
-	+	5	0
-	+	6	0
-	+	7	54
-	+	5	55
-	+	4	54
-	+	5	54
-	+	6	54
-
-> ~/.gitmodules
-	*	1583633677	0
-	"	6	7
-	^	5	16
-	.	5	16
-	+	5	16
-
-> ~/.config/.gitmodules
-	*	1583633258	0
-	"	1	0
-
-> ~/.Xresources
-	*	1583624045	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	42
-	+	3	43
-	+	2	43
-	+	3	44
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc/build.gradle
+	*	1605550974	0
+	"	57	49
+	^	57	50
+	.	2	54
+	+	3	9
+	+	6	7
+	+	10	1
+	+	9	1
+	+	3	17
+	+	14	6
+	+	14	78
+	+	14	71
+	+	15	0
+	+	3	3
+	+	2	56
+	+	3	13
+	+	2	54
+	+	3	11
 	+	4	19
-	+	2	21
+	+	7	1
+	+	8	1
+	+	2	54
 
-> ~/.oh-my-zsh/themes/gnzh.zsh-theme
-	*	1583623533	0
-	"	17	20
-	^	19	0
-	.	18	2
-	+	18	2
-
-> ~/.vimrc
-	*	1583623359	0
-	"	1	0
-	^	1	64
-	.	2	0
-	+	15	8
-	+	1	64
-	+	1	63
-	+	1	64
-	+	57	12
-	+	1	64
-	+	56	24
-	+	1	64
-	+	2	0
-
-> ~/.dmrc
-	*	1583622807	0
-	"	1	8
-
-> ~/.viminfo
-	*	1583622210	0
-	"	79	0
-
-> ~/.scripts/.zshrc
-	*	1583622147	0
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc2/build.gradle
+	*	1605550910	0
 	"	1	0
 
-> ~/.scripts/.zshr
-	*	1583622142	0
+> ~/Documents/Stick/Documents/projects/Work/Atis/build.gradle
+	*	1605550903	0
 	"	1	0
 
-> ~/.scripts/.zsh
-	*	1583622134	0
-	"	1	0
+> ~/Documents/Stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/print.php
+	*	1605550411	0
+	"	54	8
 
-> ~/.scripts/betterlockscreen
-	*	1583622109	0
-	"	1	0
-	^	1	0
-	.	1	0
+> ~/Documents/Stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/misc_functions.php
+	*	1605549873	0
+	"	123	4
+	^	130	35
+	.	130	34
+	+	130	34
+
+> ~/test.txt
+	*	1605537417	0
+	"	52	0
+
+> ~/hsgschnitt.txt
+	*	1605536778	0
+	"	2	0
+	^	2	0
+	.	1	27
 	+	1	0
+	+	1	27
 
-> ~/.oh-my-zsh/themes/ys.zsh-theme
-	*	1583620075	0
-	"	26	0
-
-> ~/.gitconfig
-	*	1583619278	0
-	"	3	21
-	^	3	22
-	.	3	21
-	+	3	21
-
-> ~/.vim/bundle/YouCompleteMe/doc/youcompleteme.txt
-	*	1583618800	0
-	"	670	0
-
-> ~/.vim/bundle/YouCompleteMe/pytest.ini
-	*	1583618614	0
+> ~/nothsg.txt
+	*	1605536568	0
 	"	1	0
 
-> ~/.vim/bundle/YouCompleteMe/tox.ini
-	*	1583618593	0
+> ~/Downloads/logos_kitlogo_de_rgb.pdf
+	*	1605208419	0
+	"	1	0
+
+> /etc/ImageMagick-7/policy.xml
+	*	1605188901	0
+	"	52	77
+	^	52	78
+	.	52	77
+	+	52	77
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/Print
+	*	1605100931	0
+	"	1	0
+
+> ~/Documents/Stick/Documents/projects/Work/Atis/jacc/settings.gradle
+	*	1605088970	0
+	"	1	0
+
+> ~/.ssh/config
+	*	1605088661	0
+	"	51	7
+	^	51	8
+	.	51	7
+	+	13	0
+	+	12	20
+	+	11	14
+	+	4	9
+	+	6	13
+	+	7	26
+	+	51	14
+	+	51	7
+
+> ~/.zshvariables
+	*	1605085124	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	1	60
+	+	2	17
+
+> ~/.zshrc
+	*	1605085078	0
+	"	82	9
+	^	8	7
+	.	8	6
+	+	126	0
+	+	6	0
+	+	1	0
+	+	126	43
+	+	126	31
+	+	127	29
+	+	128	79
+	+	74	73
+	+	1	17
+	+	129	27
+	+	2	0
+	+	129	22
+	+	74	9
+	+	126	53
+	+	2	66
+	+	7	28
+	+	8	6
+
+> ~/.bashrc
+	*	1605085044	0
+	"	1	0
+	^	20	0
+
+> ~/.config/openvpn/kit-split.ovpn
+	*	1604523108	0
+	"	1	0
+
+> ~/.config/openvpn/kit-vpn2vlan.ovpn
+	*	1604522286	0
+	"	1	0
+	^	16	17
+	.	9	49
+	+	9	49
+
+> ~/Documents/Ventil/WS2021_01/Ausgabe.txt
+	*	1603106326	0
+	"	21	45
+	^	21	46
+	.	21	45
+	+	5	38
+	+	3	18
+	+	2	15
+	+	17	5
+	+	9	47
+	+	8	35
+	+	21	45
+
+> ~/.scripts/atisStunden.sh
+	*	1601638628	0
+	"	4	14
+	^	4	15
+	.	4	15
+	+	3	53
+	+	3	52
+	+	3	10
+	+	3	20
+	+	3	54
+	+	4	0
+	+	3	0
+	+	4	15
+
+> ~/.scripts/python/btctrl.py
+	*	1601545300	0
+	"	7	34
+	^	7	35
+	.	7	34
+	+	7	8
+	+	6	13
+	+	9	0
+	+	7	30
+	+	8	33
+	+	11	22
+	+	1	22
+	+	22	42
+	+	7	34
+
+> ~/tes
+	*	1601391782	0
+	"	1	0
+
+> ~/setupovpn
+	*	1600378904	0
+	"	16	47
+	^	16	48
+	.	16	46
+	+	2	0
+	+	11	43
+	+	4	0
+	+	5	26
+	+	11	20
+	+	11	33
+	+	11	36
+	+	7	7
+	+	11	30
+	+	12	46
+	+	8	7
+	+	9	0
+	+	11	0
+	+	13	13
+	+	14	47
+	+	13	34
+	+	8	8
+	+	16	35
+	+	8	52
+	+	7	93
+	+	12	20
+	+	16	20
+	+	8	24
+	+	13	32
+	+	8	64
+	+	7	21
+	+	7	106
+	+	12	39
+	+	16	46
+
+> ~/Documents/Stick/Documents/measurements.txt
+	*	1600283473	0
 	"	1	1
 
-> ~/.vim/bundle/YouCompleteMe/install.py
-	*	1583618514	0
-	"	45	19
-	^	45	20
-	.	46	0
-	+	22	0
-	+	45	20
-	+	46	0
-
-> ~/.vim/bundle/YouCompleteMe/install.sh
-	*	1583618480	0
-	"	3	81
-	^	3	82
-	.	4	0
-	+	4	0
-
-> ~/.vim/bundle/YouCompleteMe/install.
-	*	1583617481	0
+> ~/Documents/PenTesting/WG/publickey
+	*	1600118011	0
 	"	1	0
+
+> ~/rootkey.csv
+	*	1600117936	0
+	"	1	0
+
+> ~/multibootusb/PKGBUILD
+	*	1599944921	0
+	"	1	0
+
+> /var/tmp/pamac-build-curankar/multibootusb/PKGBUILD
+	*	1599944654	0
+	"	1	0
+
+> ~/.config/my-screenlayout/Latitude/work_auskunft2.sh
+	*	1599564253	0
+	"	3	0
+	.	3	0
+	+	3	0
+
+> ~/.config/my-screenlayout/Latitude/work_auskunft.sh
+	*	1598803104	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	8
+	+	2	60
+	+	2	0
+
+> /usr/bin/btcon
+	*	1598715276	0
+	"	2	37
+	^	2	38
+	.	2	37
+	+	2	37
+
+> ~/.scripts/screen-chooser
+	*	1598715207	0
+	"	1	0
+	^	5	1
+	.	5	0
+	+	2	0
+	+	3	0
+	+	7	0
+	+	5	0
+	+	6	13
+	+	6	49
+	+	6	12
+	+	5	33
+	+	6	16
+	+	6	0
+	+	4	43
+	+	5	0
+
+> ~/.scripts/proglist
+	*	1598714456	0
+	"	37	4
+	^	37	5
+	.	37	4
+	+	94	4
+	+	37	4
+
+> ~/.scripts/proglist.txt
+	*	1598714330	0
+	"	1	0
+	^	4	10
+	.	4	9
+	+	3	0
+	+	5	6
+	+	4	9
+
+> ~/stick/toCopy/AsymmetrischeProtokolle/backups/textcleaner
+	*	1598713306	0
+	"	1	0
+
+> ~/.config/openvpn/awsuserlocked.ovpn
+	*	1598664966	0
+	"	207	0
+
+> ~/.config/openvpn/laptopautolog.ovpn
+	*	1598664933	0
+	"	156	0
+
+> ~/.scripts/python/netalert.py
+	*	1598648305	0
+	"	10	85
+	^	10	86
+	.	10	85
+	+	84	31
+	+	1	13
+	+	46	24
+	+	1	6
+	+	1	60
+	+	1	26
+	+	1	29
+	+	16	31
+	+	1	14
+	+	1	52
+	+	1	75
+	+	1	36
+	+	1	10
+	+	26	40
+	+	8	11
+	+	11	0
+	+	9	26
+	+	12	0
+	+	15	17
+	+	15	64
+	+	15	0
+	+	17	3
+	+	19	7
+	+	19	68
+	+	24	56
+	+	24	80
+	+	24	93
+	+	24	135
+	+	24	189
+	+	26	7
+	+	19	26
+	+	24	49
+	+	26	0
+	+	24	11
+	+	26	0
+	+	24	81
+	+	9	16
+	+	26	0
+	+	4	10
+	+	4	7
+	+	26	16
+	+	8	0
+	+	19	104
+	+	19	55
+	+	24	23
+	+	19	13
+	+	19	98
+	+	22	32
+	+	9	13
+	+	19	77
+	+	12	0
+	+	7	31
+	+	14	24
+	+	25	31
+	+	23	49
+	+	24	15
+	+	22	78
+	+	23	50
+	+	22	0
+	+	12	0
+	+	23	45
+	+	25	28
+	+	7	0
+	+	23	46
+	+	25	29
+	+	23	39
+	+	17	12
+	+	19	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	10	24
+	+	9	27
+	+	19	55
+	+	18	11
+	+	19	11
+	+	21	51
+	+	10	85
 
 > ~/.config/awesome/rc.lua
-	*	1583616351	0
-	"	65	100
-	^	65	101
-	.	65	71
-	+	65	71
+	*	1598644701	0
+	"	378	4
+	^	696	66
+	.	705	0
+	+	66	71
+	+	699	32
+	+	536	0
+	+	521	63
+	+	522	38
+	+	521	53
+	+	66	139
+	+	65	11
+	+	66	76
+	+	65	88
+	+	699	24
+	+	705	0
 
-> /etc/xorg.conf
-	*	1583615841	0
-	"	3	9
-	^	6	10
-	.	6	9
-	+	1	20
-	+	6	9
-
-> ~/.config/awesome/awesome-wm-widgets/brightnessarc-widget/brightnessarc.lua
-	*	1583614276	0
+> ~/stick/Documents/projects/groff/antragRecht.rof
+	*	1598643466	0
 	"	1	0
 
-> ~/.config/awesome/themes/multicolor/theme.lua
-	*	1583614055	0
-	"	13	51
-	^	21	61
-	.	21	60
-	+	21	60
-
-> ~/.oh-my-zsh/plugins/autojump/README.md
-	*	1583606787	0
-	"	11	53
-
-> ~/.config/awesome/myCode.lua
-	*	1583603941	0
-	"	61	26
-
-> ~/[Vundle] Installer
-	*	1583601501	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/.xinitrc
-	*	1583601072	0
-	"	12	0
-
-> ~/cloneHome
-	*	1583600458	0
+> ~/stick/Documents/projects/groff/antragRecht.
+	*	1598643449	0
 	"	1	0
 
-> /etc/fstab
-	*	1583597960	0
+> ~/stick/Documents/projects/groff/cert
+	*	1598643396	0
 	"	1	0
 
-> /rootfs-pkgs.txt
-	*	1583594948	0
-	"	230	0
+> ~/stick/Documents/projects/codeProjects/Schichtpläne/test.txt
+	*	1598642722	0
+	"	1	0
 
-> /desktopfs-pkgs.txt
-	*	1583594923	0
-	"	45	0
+> ~/stick/Documents/projects/codeProjects/Schichtpläne/test.csv
+	*	1598642710	0
+	"	1	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/WIFITest/src/main.cpp
+	*	1598641604	0
+	"	16	13
+	^	583	0
+	.	44	26
+	+	44	26
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/WateringController/.gitignore
+	*	1598640810	0
+	"	1	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/WateringController/.travis.yml
+	*	1598640506	0
+	"	67	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/WateringController/src/main.cpp
+	*	1598640361	0
+	"	103	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/Sensor_Board_Soil_Moisture/src/main.cpp
+	*	1598640089	0
+	"	61	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/Sensor_Board/include/README
+	*	1598640025	0
+	"	1	0
+
+> ~/stick/Documents/projects/codeProjects/PlatformIO/Projects/Sensor_Board/src/main.cpp
+	*	1598639909	0
+	"	36	34
+	^	36	35
+	.	36	34
+	+	36	34
+
+> ~/stick/Documents/projects/codeProjects/EncryptionTest/stuff.txt
+	*	1598639437	0
+	"	1	0
+
+> ~/stick/Documents/projects/codeProjects/EncryptionTest/settings.pyc
+	*	1598639427	0
+	"	2	0
+
+> ~/stick/Documents/projects/codeProjects/electronicProjects/WifiLEDStripe/src/main.cpp
+	*	1598639308	0
+	"	77	0
+
+> ~/tmp
+	*	1598628657	0
+	"	4	46
+	^	1	5
+	.	1	40
+	+	1	3
+	+	2	43
+	+	5	14
+	+	1	40
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/misc_functions.php
+	*	1598277477	0
+	"	106	16
+	^	106	17
+	.	117	87
+	+	19	0
+	+	12	71
+	+	117	87
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/print.php
+	*	1598277430	0
+	"	17	0
+	^	72	13
+	.	36	65
+	+	43	0
+	+	30	0
+	+	32	0
+	+	30	50
+	+	31	49
+	+	36	65
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/2996!
+	*	1598276002	0
+	"	1	0
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/2996
+	*	1598275995	0
+	"	1	0
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/webprinting.php
+	*	1598205478	0
+	"	6	0
+	^	19	48
+	.	19	0
+	+	19	63
+	+	18	97
+	+	19	0
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/webprinting.
+	*	1598203504	0
+	"	1	0
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/source/login.php
+	*	1598202331	0
+	"	26	0
+	^	104	2
+	.	17	50
+	+	16	50
+	+	17	50
+
+> ~/stick/Documents/projects/Work/Atis/PrintingInformationCenter/www/html/index.php
+	*	1598201214	0
+	"	112	0

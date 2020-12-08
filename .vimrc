@@ -1,4 +1,5 @@
 highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
+highlight YcmErrorSection ctermbg=DarkRed
 
 " VUNDLE STUFF
 set nocompatible              " be iMproved, required
@@ -55,6 +56,6 @@ set shiftwidth=3 " 4th option keep these always the same
 set noexpandtab " no tabs to spaces
 
 cmap w!! w !sudo tee > /dev/null %
-"colorscheme solarized
+" colorscheme solarized
 set clipboard=unnamedplus
 set encoding=utf-8
